@@ -1,7 +1,7 @@
 from rest_framework import  permissions, views, status
 from rest_framework.response import Response
 from rest_framework.views import APIView
-from role.api.serializers import RoleSerializer
+from role.api.serilizers import RoleSerializer
 from role.models import Role
 
 
