@@ -106,7 +106,7 @@ EMAIL_HOST_PASSWORD = 'flna kjwh wtjb kfhl'
 
 CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = (
-  'http://localhost:3039',
+  'http://localhost:3000',
 )
 
 ROOT_URLCONF = 'onboarding_platform.urls'
