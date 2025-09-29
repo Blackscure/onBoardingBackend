@@ -33,10 +33,10 @@ staticfiles/
 Thumbs.db
 
 # Sensitive data
-local_settings.py
-settings.py
-*.secret
-*.key
+# local_settings.py
+# settings.py
+# *.secret
+# *.key
 
 # Build and distribution
 build/
