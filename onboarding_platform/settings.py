@@ -20,8 +20,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'authentication.apps.AuthenticationConfig',
     'role.apps.RoleConfig',
+    'authentication.apps.AuthenticationConfig',
     'forms.apps.FormsConfig',
     'submissions.apps.SubmissionsConfig',
 
