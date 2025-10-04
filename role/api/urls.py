@@ -1,10 +1,6 @@
 from django.urls import path
 
-
 from role.api.views import EditRoleAPIView, RoleDetailView, RoleListCreateView
-
-
-
 
 urlpatterns = [
     path('roles/', RoleListCreateView.as_view(), name='role-list-create'),
